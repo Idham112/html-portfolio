@@ -1,0 +1,264 @@
+.gradient-background{
+	background: linear-gradient(-45deg, #393E46, #5C636E, #F7F7F7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.gradient-footer{
+	background: linear-gradient(-45deg, #393E46, #5C636E, #F7F7F7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 56vh;      
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body{    
+    background-color: #F7F7F7;
+    font-family: 'Montserrat', sans-serif  !important;
+}
+
+.hero{        
+    /* display: flex;   */
+    margin-bottom: 50px;
+}
+
+.introSide{      
+    flex-grow: 1;   
+    max-width: 50%;
+    position: relative;
+}
+
+/* .logo{
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #F8B500;
+    top: 0.5rem;
+    left: 0.5rem;
+} */
+
+.intro{
+    position: relative; 
+    top: 9rem;
+    padding-left: 9rem;
+}
+
+#hi, .smallIntroText{
+    color: #F7F7F7;
+}
+
+.introText{     
+    font-family: 'Montserrat', sans-serif;  
+    letter-spacing: 5px;     
+}
+
+#introName{
+    font-weight: bolder;
+    color: #F8B500;
+    letter-spacing: 7px;
+}
+
+.smallIntroText{
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+}
+
+#introWeb{
+    font-weight: 600;
+}
+
+#introBekasi{
+    font-size: 0.8rem;
+}
+
+#introCatch{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+#decorPart{    
+    flex-grow: 1;
+    position: relative;  
+}
+
+#bgPart{          
+    min-height: 700px;
+    width: 420px;
+    background-color: #F8B500;
+}
+.illustratorPic{
+    position: absolute;
+    top: 20%;           
+}
+
+.socials{
+    padding-top: 30px;
+    display: flex;
+}
+
+.iconContainer{
+    background-color: #F8B500;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    padding: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+.iconContainer:hover{
+    background-color: #F8B500;
+    transform: scale(1.05);
+}
+
+.iconContainer > h3{
+    margin: 0;
+    padding: 1px 10px 1px 10px;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    color: #F7F7F7;
+}
+
+.socials > a{
+    text-decoration: none;     
+}
+
+main{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 7%;
+    gap: 4em;
+}
+
+.aboutMe{           
+    font-family: 'Montserrat', sans-serif; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.bgAboutMe{
+    background-color: #5C636E;    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px 100px;
+    margin: 80px 80px 80px 0px;
+    border-radius: 7px;   
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.who{        
+    color: #F7F7F7;
+}
+
+.who > h1{
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.who > p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.myPic{      
+    padding-top: 20px; 
+    margin: 0 0 0 70px; 
+    max-height: 500px;
+}
+
+.mySkills{           
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.mySkills > h1{
+    font-weight: bolder;
+    letter-spacing: 5px;    
+}
+
+.skillCards{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    gap: 5em;  
+    justify-content: space-between;
+}
+
+.cards{    
+    background-color: #F8B500;
+    padding: 48px;
+    width: 25%;
+    border-radius: 7px;  
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.cards > h5{
+    margin: 15px 0px;
+    font-weight: bold;
+    letter-spacing: 5px;  
+    color: #F7F7F7;
+}
+
+.cards > p{
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentFooter{  
+    display: flex; 
+    padding: 100px 0 0 70px;
+    gap: 100px;   
+}
+
+ul{
+    padding: 0;
+}
+
+li{    
+    list-style-type: none;
+    padding-bottom: 7px;
+    color: #F7F7F7;
+}
+
+li > a{
+    color: #F7F7F7;    
+}
+
+.copyright{
+    text-align: center;
+    width: 85%;
+    margin-top: 80px;
+    padding-top: 10px;
+    border-top: #F7F7F7;  
+    border-width: 2px 0 0 0;  
+    border-style: groove;
+    font-family: 'Montserrat', sans-serif; 
+    color: #F7F7F7;
+}
+
+
